@@ -1,0 +1,32 @@
+{
+  "name": "node-scalper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-qiniu-sdk": "^1.6.6",
+    "puppeteer": "^14.1.1",
+    "qiniu": "^7.7.0",
+    "qiniu-uptoken": "^1.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "./lib/string.func.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/kaneyoung/node-scalper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
